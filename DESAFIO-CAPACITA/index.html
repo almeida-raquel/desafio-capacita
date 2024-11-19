@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Férias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"> Minhas Férias</h1>
+            <nav>
+                <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#locais">Locais Visitados</a></li> 
+                <li><a href="#contato">Contato</a></li>     
+                </ul>
+            </nav>
+        </div>
+    </header> 
+
+    <section id="#sobre" class="section">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <p>Olá, me chamo Raquel. Criei esta página com o propósito de falar um pouco sobre as cidades que gostei bastante de visitar durante minhas férias.</p>
+        </div>
+    </section>
+
+    <section id="#sobre" class="section">
+        <div class="container">
+            <div class="locais-grid">
+                <div class="locais-item">
+                    <h3>Recife - Pernambuco</h3>
+                    <img src="recife-antigo.jpg" alt="Imagem da rua do Bom Jesus no Recife Antigo">
+                    <p>Uma cidade carregada de patrimônios históricos e beleza. O Recife Antigo preserva muito bem sua <br>
+                        arquitetura histórica e realizam constantemente obras de reforma e restauração nas edificações do centro.</p>
+                </div>
+                <div class="locais-item">
+                    <h3>Olinda - Pernambuco</h3>
+                    <img src="olinda.jpg" alt="Imagem do centro histótico de Olinda">
+                    <p>Olinda é imensamente conhecida por ser uma cidade onde a cultura carnavalesca é muito forte,<br>
+                    com o frevo e os gigantes bonecos de Olinda.</p>
+                </div>
+                <div class="locais-item">
+                    <h3>Praia de Coqueirinho - Paraíba</h3>
+                    <img src="coqueirinho.jpg" alt="Imagem do centro histótico de Olinda">
+                    <p>Trata-se de uma das praias mais bonitas da do estado da Paraíba. Muito conhecida por suas águas<br>
+                        tranquilas e apropriadas para banhistas de todas as idades..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="sectionContato">
+        <div class="container">
+           <h2>Contato</h2>
+           <p>Para entrar em contato, preencha com seus dados o formulário a seguir:</p> 
+           <form action="https://formsubmit.co/your@email.com" method="POST">
+                <input type="text" name="Nome" placeholder="Seu nome" required>
+                <input type="email" name="Email" placeholder="Seu email" required>
+                <textarea name="Mensagem" rows="4" placeholder="Deixe sua mensagem"></textarea>
+                <input type="submit" class="btn" value="Enviar"
+           </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FSN4 Capacita Brasil. Todos os direitos reservados.</p>
+
+        </div>
+    </footer>
+</body>
+</html>
